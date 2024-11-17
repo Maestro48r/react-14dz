@@ -1,0 +1,74 @@
+.main-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 50px;
+}
+
+.main-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 200px;
+  padding-top: 90px;
+}
+
+.main-text {
+  font-family: "pobeda";
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.main-title {
+  font-family: "appetite";
+  font-size: 50px;
+}
+
+.main-image {
+  margin-right: 200px;
+}
+
+.main-img {
+  width: 400px;
+  border-radius: 20px;
+  border-color: rgb(16, 223, 16);
+  border-style: groove;
+  border-width: 10px;
+}
+
+@media (max-width: 991px) {
+  .main-titles {
+    margin-left: 60px;
+  }
+
+  .main-img {
+    width: 270px;
+  }
+}
+
+@media (max-width: 544px) {
+  .main-container {
+    padding-top: 30px;
+  }
+
+  .main-titles {
+    margin-left: 40px;
+  padding: 45px 25px;
+  }
+
+  .main-title {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+
+  .main-img {
+    width: 230px;
+  }
+
+.main-text {
+  font-size: 20px;
+}
+
+
+}

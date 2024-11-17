@@ -1,0 +1,10 @@
+.card-wrapper {
+    max-width: 350px;
+    box-shadow: 0 0 15px gray;
+    border-radius: 15px;
+    margin: 15px 20px;
+}
+
+.card-wrapper img {
+    width: 250px;
+}
